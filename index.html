@@ -4,13 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
+    <section class="review">
+        <div class="content">
+            <div class="review__head">
+                <ul class="review__header" >
+                    <li class="review__head--tittle">Описание</li>
+                    <li class="review__head--tittle">Детали</li>
+                    <li class="review__head--tittle active">Отзывы</li>
+                </ul>
+            </div>
+            <div class="box">
+                <form class="review__form">
+                    <p class="review__subtittle">Оставьте свой отзыв на “Ароматическое саше”</p>
+                    <textarea name="review" id="" cols="30" rows="10" placeholder="Ваш отзыв*"></textarea>
+                    <div class="user__info">
+                        <input class="user__input" type="text" name="name" placeholder="Имя*">
+                        <input class="user__input" type="number" name="number" placeholder="Телефон*">
+                        <input class="user__input" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="submit__box">
+                        <button class="review__submit" type="submit">Отправить</button>
+                        <div>
+                            <input type="checkbox" class="custom__checkbox" name="checkbox" id="checkbox" checked>
+                            <label class="checkbox" for="checkbox">Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.</label>
+                        </div>
+                    </div>
+                </form>
+                <div class="another__reviews">
+                    <p class="review__subtittle">Другие отзывы на “Ароматическое саше”</p>
+                    <div class="review__box">
+                        <div class="about__reviewer">
+                            <h3 class="about__reviewer--name">Ксения</h3>
+                            <p class="date">25.05.2021</p>
+                        </div>
+                        <p class="review__text">Равным образом, семантический разбор внешних противодействий играет важную роль в формировании вывода текущих активов. Противоположная точка зрения подразумевает, что явные признаки победы институционализации, превозмогая сложившуюся непростую экономическую ситуацию, объединены в целые кластеры себе подобных. Являясь всего лишь частью общей картины, многие известные личности представлены в исключительно положительном свете.</p>
+                    </div>
+                    <div class="review__box">
+                        <div class="about__reviewer">
+                            <h3 class="about__reviewer--name">Борис</h3>
+                            <p class="date">13.05.2021</p>
+                        </div>
+                        <p class="review__text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: начало повседневной работы по формированию позиции предоставляет широкие возможности для экономической целесообразности принимаемых решений. Следует отметить, что семантический разбор внешних противодействий играет определяющее значение для соответствующих условий активизации. Предварительные выводы неутешительны: консультация с широким активом создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 </body>
 </html>
